@@ -1,0 +1,55 @@
+:root {
+  /* colors */
+
+  --cs-bg-color: #ffffff;
+  --cs-bg-color-page: #f2f3f5;
+  --cs-bg-color-overlay: #ffffff;
+  --cs-text-color-primary: #303133;
+  --cs-text-color-regular: #606266;
+  --cs-text-color-secondary: #909399;
+  --cs-text-color-placeholder: #a8abb2;
+  --cs-text-color-disabled: #c0c4cc;
+  --cs-border-color: #dcdfe6;
+  --cs-border-color-light: #e4e7ed;
+  --cs-border-color-lighter: #ebeef5;
+  --cs-border-color-extra-light: #f2f6fc;
+  --cs-border-color-dark: #d4d7de;
+  --cs-border-color-darker: #cdd0d6;
+  --cs-fill-color: #f0f2f5;
+  --cs-fill-color-light: #f5f7fa;
+  --cs-fill-color-lighter: #fafafa;
+  --cs-fill-color-extra-light: #fafcff;
+  --cs-fill-color-dark: #ebedf0;
+  --cs-fill-color-darker: #e6e8eb;
+  --cs-fill-color-blank: #ffffff;
+
+  /* border */
+  --cs-border-width: 1px;
+  --cs-border-style: solid;
+  --cs-border-color-hover: var(--cs-text-color-disabled);
+  --cs-border: var(--cs-border-width) var(--cs-border-style) var(--cs-border-color);
+  --cs-border-radius-base: 4px;
+  --cs-border-radius-small: 2px;
+  --cs-border-radius-round: 20px;
+  --cs-border-radius-circle: 100%;
+
+  /*font*/
+  --cs-font-size-extra-large: 20px;
+  --cs-font-size-large: 18px;
+  --cs-font-size-medium: 16px;
+  --cs-font-size-base: 14px;
+  --cs-font-size-small: 13px;
+  --cs-font-size-extra-small: 12px;
+  --cs-font-family: 'Helvetica Neue', Helvetica, 'PingFang SC', 'Hiragino Sans GB',
+    'Microsoft YaHei', '\5fae\8f6f\96c5\9ed1', Arial, sans-serif;
+  --cs-font-weight-primary: 500;
+
+  /*disabled*/
+  --cs-disabled-bg-color: var(--cs-fill-color-light);
+  --cs-disabled-text-color: var(--cs-text-color-placeholder);
+  --cs-disabled-border-color: var(--cs-border-color-light);
+
+  /*animation*/
+  --cs-transition-duration: 0.3s;
+  --cs-transition-duration-fast: 0.2s;
+}
