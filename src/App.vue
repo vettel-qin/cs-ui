@@ -4,6 +4,7 @@ import Button from './components/Button/Button.vue'
 
 <template>
   <Button type="primary">default</Button>
+  <Button>primary</Button>
 </template>
 
 <style scoped></style>
